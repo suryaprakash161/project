@@ -1,0 +1,33 @@
+.divs{
+  width: 60%;
+  height: 100%;
+  position: fixed;
+  z-index:1;
+  top:0;
+  overflow-x:hidden;
+  padding-top: 20px;
+}
+
+
+.left{
+  left:0;  
+  width: 300px;
+  padding: 40px;
+  border: 15px black;
+  margin:20px
+}
+
+
+.right{
+  right:0;
+  overflow:scroll;
+  scroll-behavior: smooth;
+  background-color: skyblue;
+  
+}
+
+.c{
+  padding: 10px 30px;
+  background-color: lightcoral;
+
+}
